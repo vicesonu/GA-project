@@ -1,14 +1,59 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: bold;
+}
+
 section {
     height: 500px;
     background-color: white;
     border:solid black 1px;
+    /* font-family: 'Reggae One', cursive; */
 }
 
 .myself {
  background-color: #1c1d25;
  height:100vh;
+ color: white;
+ font-size: 30px;
 }
 footer {
     height:500px;
     background-color: black;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 30px;
+}
+
+li {
+    width: 150px;
+    text-decoration: none;
+}
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+p {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 300px;
+}
+.myself1 {
+    margin-left: 70px;
+}
+.button {
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: coral;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300px;
+    padding-top: 5px;
+    margin-top: 20px;
 }
