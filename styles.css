@@ -3,14 +3,14 @@ body {
 }
 
 section {
-    height: 500px;
+    height: auto;
     background-color: white;
-    border:solid black 1px;
+    border: #349473;
     /* font-family: 'Reggae One', cursive; */
 }
 
 .myself {
- background-color: #1c1d25;
+ background-color: #333753;
  height:100vh;
  color: white;
  font-size: 30px;
@@ -57,7 +57,7 @@ p {
     width: 200px;
     height: 55px;
     border-radius: 30px;
-    background-color: coral;
+    background-color: rgb(31, 138, 103);
     text-align: center;
     font-size: 30px;
     font-weight: 300px;
@@ -65,7 +65,7 @@ p {
     margin-top: 30px;
 }
 .button:hover {
-    background-color:#ef744b;
+    background-color:#227e3d;
 }
 
 .button:active {
@@ -81,4 +81,25 @@ p {
     height: 80px;
     margin: 30px;
     /* padding: 10px; */
+}
+.social1 {
+    margin: 20px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+h2 {
+    font-size: 60px;
+}
+
+.myface {
+    width: 250px;
+    border-radius: 100px;
+}
+.container {
+    display: flex;
+    align-items: center;
 }
