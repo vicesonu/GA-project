@@ -22,6 +22,7 @@ footer {
     /* font-size: 40px; */
     text-align: center;
     padding: 25px;
+    height:60vh;
 }
 nav {
     display: flex;
@@ -89,6 +90,9 @@ p {
 
 .socials {
     padding-bottom: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 
 }
 .Me {
@@ -97,7 +101,10 @@ p {
     /* padding: 10px; */
 }
 .social1 {
-    margin: 20px;
+    margin: 50px;
+    padding: 30px 30px;
+    /* display: flex;
+    flex-direction: end; */
 }
 
 .sub-section {
@@ -107,6 +114,7 @@ p {
 }
 h2 {
     font-size: 60px;
+    padding: 20px;
 }
 
 .myface {
@@ -147,4 +155,8 @@ a {
 }
 nav {
     align-items: flex-start;
+}
+
+.email {
+    padding: 0 0 20px 0;
 }
